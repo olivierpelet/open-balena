@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update dependency ami
+      hash: 5c42e7937aa5e2e80c6b337d0d22e3db964a6f7a
+      body: |
+        Update ami from ami-022885c71bb4df31c to ami-0d5e6ea4a8ea909cf
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 4.1.717
+  title: ""
+  date: 2026-03-19T21:42:36.498Z
+- commits:
     - subject: Update balena-io-examples/setup-balena-action action to v0.0.100
       hash: 9799a26acad57eb0a7a3a0f089543efb76df1035
       body: |
