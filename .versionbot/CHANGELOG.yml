@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update balena-io-examples/setup-balena-action action to v0.0.100
+      hash: 9799a26acad57eb0a7a3a0f089543efb76df1035
+      body: |
+        Update balena-io-examples/setup-balena-action from 0.0.99 to 0.0.100
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 4.1.716
+  title: ""
+  date: 2026-03-19T19:57:09.639Z
+- commits:
     - subject: "patch: Update session manager SHA(s)"
       hash: 5f74b595367f39cb6011c387c65a1ad10ea67a74
       body: ""
