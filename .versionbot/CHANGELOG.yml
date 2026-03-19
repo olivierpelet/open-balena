@@ -1,4 +1,14 @@
 - commits:
+    - subject: "patch: Update session manager SHA(s)"
+      hash: 5f74b595367f39cb6011c387c65a1ad10ea67a74
+      body: ""
+      footer: {}
+      author: Anton Belodedenko
+      nested: []
+  version: 4.1.715
+  title: ""
+  date: 2026-03-19T18:26:57.843Z
+- commits:
     - subject: Update actions/create-github-app-token action to v3
       hash: 42c8f78230f762fac491b6abdb1f6ee828d6694b
       body: |
