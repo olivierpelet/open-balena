@@ -108,6 +108,8 @@ jobs:
         role-to-assume: ${{ vars.AWS_IAM_ROLE }}
 
     # https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-working-with-install-plugin.html#install-plugin-debian
+    # NOTE: to update SHA(s), run and commit results:
+    # for runner_arch in 64bit arm64; do wget -qO- "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/ubuntu_${runner_arch}/session-manager-plugin.deb" | shasum -a 256 >session-manager-plugin.deb.${runner_arch}.sha256; done
     - name: install session-manager-plugin
       if: matrix.target == 'compose-private-pki'
       run: |
@@ -115,7 +117,7 @@ jobs:
         runner_arch="$(echo "${RUNNER_ARCH}" | tr '[:upper:]' '[:lower:]' | sed 's/x64/64bit/g')"
 
         session-manager-plugin || (curl -sSfo "session-manager-plugin.deb.${runner_arch}" "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/ubuntu_${runner_arch}/session-manager-plugin.deb" \
-          && echo "$(cat session-manager-plugin.deb.${runner_arch}.sha256)" | sha256sum --check --status \
+          && echo "$(cat session-manager-plugin.deb.${runner_arch}.sha256 | sed "s/-/session-manager-plugin.deb.${runner_arch}/g")" | sha256sum --check --status \
           && ln -s session-manager-plugin.deb.${runner_arch} session-manager-plugin.deb \
           && sudo dpkg -i session-manager-plugin.deb \
           && rm -f session-manager-plugin.deb session-manager-plugin.deb.${runner_arch})
