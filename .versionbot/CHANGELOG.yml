@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update dependency ami to ami-04eaa218f1349d88b
+      hash: fa4ae923e76f64e15ad45897656fe016116d234e
+      body: |
+        Update ami from ami-0462ececcfe0a450f to ami-04eaa218f1349d88b
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 4.1.721
+  title: ""
+  date: 2026-03-23T16:58:17.740Z
+- commits:
     - subject: Update dependency ami to ami-0462ececcfe0a450f
       hash: ac5c9edafad81945c62be93dba44000a0687d975
       body: |
