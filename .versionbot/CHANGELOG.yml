@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update aws-actions/configure-aws-credentials digest to 7a319c3
+      hash: d01b65b1615afeca47168e22ecd476e4fa3cc84d
+      body: |
+        Update aws-actions/configure-aws-credentials
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 4.1.723
+  title: ""
+  date: 2026-03-24T00:48:00.862Z
+- commits:
     - subject: Update balena/open-balena-api Docker tag to v43.7.11
       hash: 6880fbf12e2abe5f0f8de7a13cc4f232600de565
       body: |
