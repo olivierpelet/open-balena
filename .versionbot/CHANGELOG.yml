@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update balena/ca-private Docker tag to v0.0.31
+      hash: ce43de6a181712dc361da5d60fa3e439f13f934c
+      body: |
+        Update balena/ca-private from 0.0.15 to 0.0.31
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 4.1.728
+  title: ""
+  date: 2026-03-30T20:16:42.993Z
+- commits:
     - subject: Update dependency ami to ami-0ef4eb08c3a7064b2
       hash: 811ee9cf1afc4706519b78abcc919d1f9839b52b
       body: |
