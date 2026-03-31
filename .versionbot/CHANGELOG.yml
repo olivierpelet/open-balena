@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update balena/open-balena-haproxy Docker tag to v4.3.16
+      hash: d5691284df5afe9cbc24db7d23df53a12cf1739e
+      body: |
+        Update balena/open-balena-haproxy from 4.3.2 to 4.3.16
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 4.1.733
+  title: ""
+  date: 2026-03-31T15:43:51.669Z
+- commits:
     - subject: Update balena/open-balena-s3 Docker tag to v3.0.42
       hash: 5972a5da43f5c29fd8ae12354477d49266524b48
       body: |
