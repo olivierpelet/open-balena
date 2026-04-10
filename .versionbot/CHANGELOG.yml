@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update balena-io-examples/setup-balena-action action to v0.0.117
+      hash: 413ca7ef395a1fca83ff51b23fdeb8bdf488cfc9
+      body: |
+        Update balena-io-examples/setup-balena-action from 0.0.100 to 0.0.117
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 4.1.735
+  title: ""
+  date: 2026-04-10T03:07:54.070Z
+- commits:
     - subject: "patch: Update AWS session-manager-plugin SHAs"
       hash: 0dc5a70e3ef5ab3ce2c6b2c7382fae3ea550a079
       body: ""
