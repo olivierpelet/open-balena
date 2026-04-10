@@ -1,4 +1,14 @@
 - commits:
+    - subject: "patch: Update AWS session-manager-plugin SHAs"
+      hash: 0dc5a70e3ef5ab3ce2c6b2c7382fae3ea550a079
+      body: ""
+      footer: {}
+      author: Anton Belodedenko
+      nested: []
+  version: 4.1.734
+  title: ""
+  date: 2026-04-10T00:42:49.086Z
+- commits:
     - subject: Update balena/open-balena-haproxy Docker tag to v4.3.16
       hash: d5691284df5afe9cbc24db7d23df53a12cf1739e
       body: |
