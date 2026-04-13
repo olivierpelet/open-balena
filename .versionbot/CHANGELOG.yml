@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update actions/create-github-app-token digest to 1b10c78
+      hash: a62d1dee9ebd6da5f8fd3d06ebab2ff4d920483a
+      body: |
+        Update actions/create-github-app-token
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 4.1.738
+  title: ""
+  date: 2026-04-13T12:38:25.238Z
+- commits:
     - subject: Update balena/open-balena-vpn Docker tag to v12.3.19
       hash: bd8827ffc8ced33a8be32e925ae3d53ed98b2072
       body: |
